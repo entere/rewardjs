@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*basic*/
+body,input,label,ul,li,p{ list-style:none; margin:0; padding:0}
+.left{ float:left;}
+.right{ float:right;}
+.hidden{ display:none;}
+img{ font-size:0; line-height:0;border:none;}
+a{font-weight:normal; text-decoration: none;}
+a:hover{font-weight:normal; text-decoration: none;}
+.a{ color:#ff3300; text-decoration:none;}
+.a:hover{font-weight:normal; text-decoration:underline;}
+.hg{ line-height:24px;}
+i,em,cite{ font-style:normal;}
+html{ font-family:"Microsoft YaHei"; font-size:62.5%;}
+
+
+
+
+.zs-con{width:100%;float:left; margin:100px auto; padding-bottom:20px;}
+.zs-con .img{ width:180px;display:block; margin:20px auto; display:none;}
+.zs-con .zs-but{width: 126px;  height: 61px;  margin: 20px auto;}
+.zs-con .zs-but a{ display:block; margin:20px auto; width:126px; height:61px;background:url(../img/but_up.png);}
+.zs-con .zs-but a:hover{background:url(../img/but_down.png)}
+.zs-con .zs-dir{ width:100%; text-align:center; color:#333; font-size:18px; font-size:1.8rem;}
+/*固定金额+其它金额*/
+.zs-container{ width:100%; position:fixed; top:0; bottom:0;left:0;right:0;
+background:rgba(0,0,0,0.6);background: transparent\9;zoom:1\8; /* required for the filters */
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; /* IE8 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000); /* IE5.5-7 */
+z-index:99999999;}
+.zs-container-close{ position:absolute;top:20px; right:20px;background:#333; color:#FFF; border:2px solid #fff; font-family:Arial; font-size:26px; text-align:center; line-height:50px; width:50px; height:50px; border-radius:50%; cursor:pointer;}
+.zs-con-n{ position:absolute;top:50%; left:50%; margin-top:-120px; margin-left:-300px; width:600px; height:200px; border-radius:6px; background:#fff}
+.zs-de{ width:560px;margin:20px auto;overflow:hidden}
+.zs-de li{ float:left; margin:0 6px; width:96px; height:96px;  background: #FF8C39; border: 2px solid #F4783A; border-radius:50%; font-size:20px; font-size:2.0rem; color:#FFF; line-height:96px; text-align:center}
+.zs-de li a{  font-family: Century;  color: #FFF;  font-size: 36px;  text-align: center;  margin: 0 4px; cursor:pointer}
+.zs-de li:hover{border: 2px solid #F4783A; background:#FFF; color:#FF8C39; cursor:pointer}
+.zs-de li:hover a{ color:#FF8C39}
+.zs-con-n .other{margin:14px auto 0; display:block; text-align:center; width:100px; font-size:20px; font-size:2.0rem; color:#1a4e90; cursor:pointer; text-decoration:underline;}
+.zs-con-n .other-zs  i{ float:left; margin:14px auto 0; display:block; text-align:center; width:100%; font-size:20px; font-size:2.0rem; color:#1a4e90; cursor:pointer; text-decoration:underline;}
+
+.zs-con-n form{ width:100%; height:68px;margin-top:52px; font-size:20px; font-size:2.0rem; color:#333;}
+.zs-con-n .je{ width:30%; text-align:right; float:left; height:46px; line-height:46px;font-size:20px;}
+.zs-con-n .je-sj{ width:40%; height:42px;  line-height:42px; line-height:20px\0;border:1px solid #999; border-radius:6px; color:#666; float:left; position:relative;}
+.zs-con-n .je-sj .money{ position:absolute;top:0px;top:11px\0; left:0; font-size:20px; }
+.zs-con-n .je-sj input{ height:33px;*height:34px; line-height:42px;border:none; margin-left:28px;margin-bottom:0;outline:none; margin-top:0px\0; margin-left:28px\0;*margin-left:26px; width:161px; width:161px\0;*width:162px; font-size:18px; font-size:1.8rem;}
+.zs-con-n .je-sj img{ position:absolute;top:7px;right:7px;width:auto;margin:0 auto}
+.zs-con-n .zs-sub{   background: url(../img/zs_img.png) no-repeat;  width: 82px;  height: 42px; border: none; cursor: pointer;  float: left;  margin-left: 10px;}
+
+
+
